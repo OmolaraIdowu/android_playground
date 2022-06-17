@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Android Playground</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_started_with_android">Get Started With Android</string>
+    <string name="learn_kotlin_fundamentals">Learn Kotlin Fundamentals</string>
+    <string name="create_your_powerful_application_with_kotlin">Create your powerful application with Kotlin</string>
+    <string name="getStarted">Let\'s Go!</string>
+    <string name="backTxt">Back</string>
+    <string name="nextTxt">Next</string>
+    <string name="action_switch_layout">Action Switch Layout</string>
+    <string name="introduction">Kotlin\'s modern language features allow you to focus on expressing your ideas and write less boilerplate code.</string>
+    <string name="activity_lifecycle">Activity is one of the building blocks of Android OS. In simple words Activity is a screen that user interact with. Every Activity in android has lifecycle like created, started, resumed, paused, stopped or destroyed. These different states are known as Activity Lifecycle. In other words we can say Activity is a class pre-written in Java Programming. \n
+        \nAndroid Activity Lifecycle methods: Let\'s see the Seven Lifecycle methods of android activity. \n
+        \nMETHOD-DESCRIPTION: \n
+        ► onCreate: called when activity is first created. \n
+        \n  ► onStart: called when activity is becoming visible to the user. \n
+        \n  ► onResume: called when activity will start interacting with the user. \n
+        \n  ► onPause: called when activity is not visible to the user. \n
+        \n  ► onStop: called when activity is no longer visible to the user. \n
+        \n  ► onRestart: called after your activity is stopped, prior to start. \n
+        \n  ► onDestroy: called before the activity is destroyed.\n</string>
+    <string name="kotlin_functions">A function is a block of code which is written to perform a particular task. \nFunctions are supported by all the modern programming languages and they are also known as methods. A function takes some input which is called parameters, perform certain actions on these inputs and finally returns a value.</string>
+    <string name="classes_and_objects">Everything in Kotlin is associated with classes and objects, along with its properties and functions. \nFor example: in real life, a car is an object. \n
+        ► The car has properties, such as brand, weight and color, and functions, such as drive and brake.\n
+        ► A Class is like an object constructor, or a blueprint  for creating objects.</string>
+    <string name="android_studio">Android Studio is the official integrated development environment (IDE) for Android application development. It is based on the IntelliJ IDEA, a Java integrated development environment for software, and incorporates its code editing and developer tools.</string>
+    <string name="variable">Kotlin uses two different keywords to declare variables: val and var. Use val for a variable whose value never changes. You can not reassign a value to a variable that was declared using val. Use var for a variable whose value can change</string>
+    <string name="data_binding">The Data Binding Library is a support library that allows you to bind UI components in your layouts to data sources in your app using a declarative format rather than programmatically. Layouts are often defined in activities with code that calls UI framework methods.\nFor example, the code below calls findViewById() to find a TextView widget and bind it to the userName property of the viewModel variable.</string>
+    <string name="view_binding">View binding is a feature that allows you to more easily write code that interacts with views. Once view binding is enabled in a module, it generates a binding class for each XML layout file present in that module.</string>
+    <string name="fragment">A Fragment represents a reusable portion of your app\'s UI. A fragment defines and manages its own layout, has its own lifecycle, and can handle its own input events. Fragments cannot live on their own - they must be hosted by an activity or another fragment. The fragment’s view hierarchy becomes part of, or attaches to, the host’s view hierarchy.</string>
+    <string name="view_model">The ViewModel class is designed to store and manage Contacts.Intents.UI -related data in a lifecycle conscious way. The ViewModel class allows data to survive configuration changes such as screen rotations.</string>
+    <string name="widget">A widget is a small gadget or control of your android application placed on the home screen. Widgets can be very handy as they allow you to put your favourite applications on your home screen in order to quickly access them.</string>
+    <string name="material_design">Material is an adaptable system of guidelines, components, and tools that support the best practices of user interface design. Backed by open-source code, Material streamlines collaboration between designers and developers, and helps teams quickly build beautiful products.</string>
+    <string name="recycler_view">RecyclerView is the ViewGroup that contains the views corresponding to your data. It\'s a view itself, so you add RecyclerView into your layout the way you would add any other UI element.\n► Each individual element in the list is defined by a view holder object. When the view holder is created, it doesn\'t have any data associated with it. After the view holder is created, the RecyclerView binds it to its data. You define the view holder by extending RecyclerView.ViewHolder.\n► The RecyclerView requests those views, and binds the views to their data, by calling methods in the adapter. You define the adapter by extending RecyclerView.Adapter.\n► The layout manager arranges the individual elements in your list. You can use one of the layout managers provided by the RecyclerView library, or you can define your own. Layout managers are all based on the library\'s LayoutManager abstract class.\n </string>
+    <string name="navigation">Navigation refers to the interactions that allow users to navigate across, into, and back out from the different pieces of content within your app.\nAndroid Jetpack\'s Navigation component helps you implement navigation, from simple button clicks to more complex patterns, such as app bars and the navigation drawer. The Navigation component consists of three key parts that are described below:\n► Navigation graph: An XML resource that contains all navigation-related information in one centralized location. This includes all of the individual content areas within your app, called destinations, as well as the possible paths that a user can take through your app.\n► NavHost: An empty container that displays destinations from your navigation graph. The Navigation component contains a default NavHost implementation, NavHostFragment, that displays fragment destinations.\n► NavController: An object that manages app navigation within a NavHost. The NavController orchestrates the swapping of destination content in the NavHost as users move throughout your app.\n</string>
+    <string name="intent">"An Intent is a messaging object you can use to request an action from another app component. Although intents facilitate communication between components in several ways, there are three fundamental use cases:\n► Starting an activity: An Activity represents a single screen in an app. You can start a new instance of an Activity by passing an Intent to startActivity(). The Intent describes the activity to start and carries any necessary data.  If you want to receive a result from the activity when it finishes, call startActivityForResult(). Your activity receives the result as a separate Intent object in your activity's onActivityResult() callback.</string>
+    <string name="kotlin_operators"><![CDATA[Kotlin supports the following operators and special symbols:\n► + , - , * , / , % - mathematical operators. …\n► = …\n► += , -= , *= , /= , %= - augmented assignment operators.\n► ++ , — - increment and decrement operators.\n► && , || , ! … == , != … === , !==.]]></string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+    <string name="contact">Contact Us</string>
+    <string name="contact_us">Contact Us: </string>
+    <string name="aboutTxt">We started with one mission: Make Learning Fun.\n\nThe Android Playground App explains the meaning of android and how to create mobile applications with Kotlin using Android Studio.\n\nIt helps users learn about android.</string>
+    <string name="contactUsTxt">If you have any questions or comments about this app, or to report any violations or any abuse of an application.\n</string>
+    <string name="version_1_0_0">Version: 1.0.0</string>
+    <string name="email">Email Address: swancodes@yahoo.com</string>
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dotOne"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="@id/guideline2"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline2" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dotTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="@id/dotOne"
+        app:layout_constraintEnd_toStartOf="@id/dotThree"
+        app:layout_constraintStart_toEndOf="@id/dotOne"
+        app:layout_constraintTop_toTopOf="@id/dotOne" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dotThree"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_marginStart="6dp"
+        android:background="@drawable/circle"
+        app:layout_constraintBottom_toBottomOf="@id/dotTwo"
+        app:layout_constraintStart_toEndOf="@id/dotTwo"
+        app:layout_constraintTop_toTopOf="@id/dotTwo" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/nextTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/gotham_book"
+        android:padding="8dp"
+        android:text="@string/backTxt"
+        android:textColor="@color/lemon_500"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/backTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="32dp"
+        android:padding="8dp"
+        android:fontFamily="@font/gotham_book"
+        android:text="@string/backTxt"
+        android:textColor="@color/lemon_500"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/getStartedButton"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/lemon_500"
+        android:fontFamily="@font/gotham_book"
+        android:text="@string/getStarted"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
